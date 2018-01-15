@@ -1,0 +1,6 @@
+package pingpong
+
+
+object StartGameMessage
+object ContinueGameMessage
+object EndGameMessage
