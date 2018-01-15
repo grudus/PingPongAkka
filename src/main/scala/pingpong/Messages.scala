@@ -1,6 +1,8 @@
 package pingpong
 
+import akka.actor.ActorRef
 
-object StartGameMessage
-object ContinueGameMessage
+
+case class StartGameMessage(opponent: ActorRef)
+case class ContinueGameMessage(count: Int)
 object EndGameMessage
